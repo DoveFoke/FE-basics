@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Чаплицький Д.А. ІО-14</title>
+    <style>
+
+        #row1 {
+            background-color: #558f8f; 
+            color: #1C0047;
+        }
+        #row1:hover {
+            background-color: #1C0047; 
+            color: #558f8f;
+        }
+
+        #row2 {
+            background-color: #f5f555; 
+            color: #0300B3;
+        }
+        #row2:hover{
+            background-color: #0300B3; 
+            color: #f5f555;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table border="1">
+
+        <tr id=row1 height="50">
+            <td width="150">Чаплицький</td>
+            <td colspan="2" width="150">Дарій</td>
+            <td width="300">Андрійович</td>
+        </tr> 
+    
+        <tr id="row2" height="25">
+            <td rowspan="2">Група ІО-14</td>
+            <td rowspan="2">Лаб №2</td>
+            <td >Варіант:</td>
+            <td rowspan="2">Варіант розрахований за формулою:<br> [номер в таблиці] mod 10</td>
+        </tr>
+
+        <tr id="row2" height="25">
+            <td>#5</td>
+        </tr>
+
+        <tr height="25">
+            <td></td>
+            <td colspan="2"></td>
+            <td></td>
+        </tr> 
+
+    </table>
+     
+    <ul>
+        <li class="transform">
+            <p class="circle" id="red"></p>
+            <p class="circle" id="green"></p>
+            <p class="circle" id="blue"></p>
+        </li>
+
+        <li class="position">
+            <p class="circle" id="red"></p>
+            <p class="circle" id="green"></p>
+            <p class="circle" id="blue"></p>
+        </li>
+    </ul>
+
+</body>
+</html>
