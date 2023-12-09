@@ -1,0 +1,7 @@
+.buttons button{
+    display: inline-block;
+}
+.buttons {
+    margin: 10 0 10 0;
+    padding: 0;
+}
