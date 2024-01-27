@@ -1,0 +1,15 @@
+#image-buttons {
+	margin-top: 20px;
+}
+
+button {
+	margin: 5px;
+	padding: 5px 10px;
+	background-color: lightgray;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: lightblue;
+}

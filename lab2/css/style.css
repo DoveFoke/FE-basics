@@ -1,0 +1,28 @@
+table {
+	width: 100%;
+}
+
+table td,table th {
+	padding: 3px;
+	width: 25%;
+	height: 30px;
+	border: 1px solid #595959;
+}
+table th {
+	background: #347c99; 
+	color: #fff; 
+	font-weight: normal;
+}
+
+.header {
+	background-color: #338f8f ;
+}
+
+.footer {
+	background-color: #f5f533  ;
+}
+
+td:hover {
+	background-color: white;
+}
+

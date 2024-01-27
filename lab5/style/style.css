@@ -1,0 +1,37 @@
+body{
+	text-align: center;
+	padding-top:100px;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.form{
+	display: block;
+	width: 500px;
+}
+
+.input-field{
+	display: block;
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+
+.send-btn{
+	border: none;
+	padding: 20px;
+	background-color: gray;
+	font-size: 16px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.form-title{
+	text-align: center;
+}

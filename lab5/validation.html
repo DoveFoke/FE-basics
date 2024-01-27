@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Чаплицький Дарій Андрійович</title>
+	<meta name="description" content="Front end lab 5">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div action="" class="form" id="add-form ">
+			<h1 class="form-title">Form</h1>
+			<form name="input-form" class="input-form" onsubmit="return false">
+				<input type="text" class="input-field" id="fullname" placeholder="Full Name">
+				<label class="wrong-input" for="fullname" hidden>Wrong Input  must be: "Chaplytskyi D.A".</label>
+
+				<input type="text" class="input-field" id="telephone" placeholder="Telephone Number">
+				<label class="wrong-input" for="telephone" hidden>Wrong Input must be: "XXX-XXX-XX-XX".</label>
+				
+				<input type="text" class="input-field" id="id-card" placeholder="ID-card">
+				<label class="wrong-input" for="id-card" hidden>Wrong Input must be: "XX№XXXXXX".</label>
+
+				<input type="text" class="input-field" id="department" placeholder="Department">
+				<label class="wrong-input" for="department" hidden>Wrong Input must be: "XXXX".</label>
+
+				<input type="text" class="input-field" id="date" placeholder="Date of birth">
+				<label class="wrong-input" for="date" hidden>Wrong Inputmust be: "XX.XX.XXXX".</label>
+
+				<button onclick="validateForm()" id="submit-button" class="send-btn">Enter</button>
+			</form>
+		</div>
+			<div id="data">
+					<ul id="data-ul">
+					</ul>
+			</div>
+		</div>
+
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>
